@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Sidebar {
+  margin-right: _size(section-spacing);
+  min-width: 22em;
+  width: 22em;
+  
+}
+
+.Content {
+  height: 100%;
+  padding-left: 300px;
+  background-color: black;
+}
+
