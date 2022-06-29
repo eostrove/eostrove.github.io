@@ -10,6 +10,12 @@ function Nav() {
             <h2 className="navbar_item">
                 <NavLink className="nav-link" aria-current="page" to="about">About</NavLink>
             </h2>
+            <h2 className="navbar_item">
+                <NavLink className="nav-link" aria-current="page" to="contact">Contact</NavLink>
+            </h2>
+            <h2 className="navbar_item">
+                <NavLink className="nav-link" aria-current="page" to="projects">Projects</NavLink>
+            </h2>
     </header>
   )
 };

@@ -9,11 +9,13 @@ body {
 }
 
 .main {
-  width: 60%;
-  height: 200vh;
-  min-height: 1000px;
+  width: 80%;
   display: flex;
   flex-direction: column;
+  background-color: #EEE2DC;
+  margin: 1em;
+  border: #BAB2B5;
+  border-radius: 10px;
 }
 
 
@@ -25,18 +27,11 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 5%;
-  background-color: rgba(224, 224, 224, 0.3);
+  /* background-color: rgba(182, 78, 161, 0.3); */
   padding: 50px;
   margin: 15px;
 }
 
-.main {
-  width: 80%;
-  height: 200vh;
-  min-height: 1000px;
-  display: flex;
-  flex-direction: column;
-}
 
 .main,
 .sidebar {
@@ -112,7 +107,7 @@ code, pre {
   display: flex;
   align-items: center;
   
-  background: grey;
+  background: #EDC7B7;
   color: white;
   font-family: Helvetica;
   font-weight: 300;
@@ -134,7 +129,7 @@ h1 {
   font-size: 1.5em;
   font-weight: 800;
   text-transform: uppercase;
-  color: hotpink;
+  color: #AC3B61;
 }
 
 p {

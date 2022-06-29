@@ -3,11 +3,12 @@ import './css/main.css';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import Format from './FormatTest';
 import Nav from './Nav';
 import About from './About';
 import Home from './Home';
 import Sidebar from './Sidebar';
+import Contact from './Contact';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="about" element={<About />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="projects" element={<Projects />} />
               </Routes>
-              {/* <Format /> */}
             </div>
         </div>
     </BrowserRouter>
