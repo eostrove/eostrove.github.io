@@ -17,6 +17,9 @@ function Nav() {
             <div className="navbar_item">
                 <NavLink className="nav-link" aria-current="page" to="projects">Projects</NavLink>
             </div>
+            <div className="navbar_item">
+                <NavLink className="nav-link" aria-current="page" to="resume">Resume</NavLink>
+            </div>
     </header>
   )
 };

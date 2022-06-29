@@ -149,3 +149,11 @@ h1 {
 p {
   font-size: 0.8em;
 }
+
+.uppercase-bold {
+  font-size: 0.8em;
+  margin: 0, 0, 0.75, 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+}
