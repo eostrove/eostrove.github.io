@@ -6,6 +6,7 @@
         margin: 0 0 (_size(element-margin) * 0.5) 0;
         overflow: hidden;
         position: relative;
+        justify-content: center;
     }
 
     .intro-img {
@@ -17,6 +18,7 @@
         margin: 0 0 (_size(element-margin) * 0.5) 0;
         overflow: hidden;
         position: relative;
+        justify-content: center;
     }
 
 }
@@ -25,11 +27,16 @@ h1 {
     font-size: 1.5em;
     font-weight: 1000;
     text-transform: uppercase;
-    color: #AC3B61;
+    color: #92d7c4;
+    
+    justify-content: center;
+    text-align: center;
   }
 
 .email {
     font-size: 0.9em;
+    justify-content: right;
+    text-align: center;
 }
 
 .blurb {
@@ -40,5 +47,13 @@ h1 {
     margin: 0, 0, 0.75, 0;
     text-transform: uppercase;
     font-weight: 900;
+    text-align: center;
+}
+
+.headshot {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    justify-content: center;
 }
 

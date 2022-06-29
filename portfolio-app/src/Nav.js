@@ -3,19 +3,20 @@ import { NavLink } from 'react-router-dom';
 function Nav() {
   return (
     <header className='navbar'>
-        <div className='navbar_title navbar_item'>Emily Ostrove</div>
-            <h2 className="navbar_item">
+        <div className='navbar_title'>Emily Ostrove</div>
+            <div className="navbar_item">
+                {/* format for links and hover in main.css */}
                 <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
-            </h2>
-            <h2 className="navbar_item">
+            </div>
+            <div className="navbar_item">
                 <NavLink className="nav-link" aria-current="page" to="about">About</NavLink>
-            </h2>
-            <h2 className="navbar_item">
+            </div>
+            <div className="navbar_item">
                 <NavLink className="nav-link" aria-current="page" to="contact">Contact</NavLink>
-            </h2>
-            <h2 className="navbar_item">
+            </div>
+            <div className="navbar_item">
                 <NavLink className="nav-link" aria-current="page" to="projects">Projects</NavLink>
-            </h2>
+            </div>
     </header>
   )
 };
