@@ -2,9 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './css/skills.css';
 
-import Skills from './Skills/Skills.js';
+import Skills from './Resume/Skills/Skills.js';
+import Education from './Resume/Education/Education.js';
 
-import { skills, categories } from './Skills/skillsdata.js';
+import { skills, categories } from './Resume/Skills/skillsdata.js';
+import degrees from './Resume/Education/educationdata.js';
 
 const Resume = () => (
     // <Main
@@ -24,8 +26,8 @@ const Resume = () => (
   
           </div>
         </header>
-        {/* <Education data={degrees} />
-        <Experience data={positions} /> */}
+        <Education data={degrees} />
+        {/* <Experience data={positions} /> */}
         <Skills skills={skills} categories={categories} />
         {/* <Courses data={courses} />
         <References /> */}
