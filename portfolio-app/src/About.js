@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div className="Content">
+        <div className="wrapper">
             important things about Emily
         </div>
     )

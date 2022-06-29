@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+
+    .intro-logo {
+        border-bottom: 0;
+        display: inline-block;
+        margin: 0 0 (_size(element-margin) * 0.5) 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .intro-img {
+        width: 10em;
+        border-radius: 50%;
+        display: block;
+        border-bottom: 0;
+        display: inline-block;
+        margin: 0 0 (_size(element-margin) * 0.5) 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: hotpink;
+  }
+
+.blurb {
+    font-size: 1em;
+}
+.blurb-h2 {
+    font-size: 0.8em;
+    margin: 0, 0, 0.75, 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+

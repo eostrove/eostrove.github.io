@@ -1,5 +1,5 @@
 import './css/App.css';
-//import './css/main.css';
+import './css/main.css';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -12,16 +12,17 @@ import Sidebar from './Sidebar';
 function App() {
   return (
     <BrowserRouter>
-      befoe the format
-      <Sidebar />
       <Nav />
-      <div className='container'>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-        </Routes>
-        <Format />
-      </div>
+        <div className='wrapper'>
+          <Sidebar />
+            <div className="main">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="about" element={<About />} />
+              </Routes>
+              {/* <Format /> */}
+            </div>
+        </div>
     </BrowserRouter>
   );
 }

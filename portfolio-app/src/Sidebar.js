@@ -1,11 +1,21 @@
 import React from "react";
 import './css/App.css';
+import './css/intro.css';
 
 function Sidebar() {
     return (
-        <div className="Sidebar">
-            stuff
-        </div>
+        <section className="sidebar">
+            <section className="intro">
+                <h1>Emily Ostrove</h1>
+                <div>emily.ostrove@gmail.com</div>
+            </section>
+            <section className="blurb">
+                <div className="blurb-h2">
+                    About
+                </div>
+                I am a software developer with a passion for learning and building things.
+            </section>
+        </section>
     )
 };
 
