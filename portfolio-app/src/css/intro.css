@@ -24,10 +24,11 @@
 }
 
 h1 {
-    font-size: 1.5em;
-    font-weight: 1000;
-    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: lowercase;
     color: #92d7c4;
+    font-family: helvetica;
     
     justify-content: center;
     text-align: center;
@@ -48,6 +49,12 @@ h1 {
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
+}
+
+.intro-details {
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 20px;
 }
 
 .headshot {

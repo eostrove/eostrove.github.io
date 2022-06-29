@@ -6,9 +6,17 @@ function Home() {
         <div className="wrapper">
             <div className="main">
                 <div className="hello">
-                    hey there
+                    hey
                 </div>
-                <h1>this is a header</h1>
+                <div className="hello2">
+                    there!
+                </div>
+                <br></br>
+                <div className="home-content">
+                    Thanks for checking out my website. I'm happy to have you here. 
+                    Please feel free to read more about me, check out my projects, 
+                    or look over my resume.
+                </div>
                 <div></div>
             </div>
         </div>
