@@ -17,12 +17,7 @@ function Sidebar() {
                     About
                 </div>
                 <div className="intro-details">
-                    I am a software developer with a passion for learning. 
-                    I spent the past 5 years at Amazon working in e-commerce, 
-                    where I was surround by tech, but not literate in the technology. 
-                    I finally decided to take the plunge and learn how to code and 
-                    haven't looked back since. I'm beyond excited to take the next step
-                    in my tech career as a Software Developer.
+                    Hi, I'm Emily. I am a software developer and a passionate learner. I like building things. Inversely, I also like and breaking things down into tiny pieces to understand exactly how they work.
                 </div>
             </section>
             <br></br>
