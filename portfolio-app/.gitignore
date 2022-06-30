@@ -11,8 +11,8 @@ src/contact/keys.py
 # testing
 /coverage
 
-# production
-/build
+# production, we can't ignore this
+#/build
 
 # misc
 .DS_Store
