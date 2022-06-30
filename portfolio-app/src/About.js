@@ -5,9 +5,9 @@ function About() {
     return (
         <div className="wrapper">
             <div className="main">
-                <div className="about-title">
-                    About
-                </div>
+            <h2><span>
+                About
+            </span></h2>
                 <div className="about-content">
                     important things about Emily. What happens when I add more content.
                 </div>

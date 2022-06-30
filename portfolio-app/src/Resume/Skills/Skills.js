@@ -72,13 +72,12 @@ class Skills extends Component {
   render() {
     return (
       <div className="skills">
-        <div className="link-to" id="skills" />
-        <div className="title">
-          <div className='uppercase-bold'>Skills</div>
+        <div className='uppercase-bold'>
+          Skills
+        </div>
           <p>Note: As I am early on in my development career, I assume my skills are at best 3/5. I saw this feature
             on another website, thought it was cool, and had to implement it here for fun.
           </p>
-        </div>
         <div className="skill-button-container">
           {this.getButtons()}
         </div>

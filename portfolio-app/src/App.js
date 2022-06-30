@@ -8,8 +8,9 @@ import About from './About';
 import Home from './Home';
 import Sidebar from './Sidebar';
 import Contact from './Contact';
-import Projects from './Projects';
+import Project from './Project';
 import Resume from './Resume';
+
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="about" element={<About />} />
                 <Route path="contact" element={<Contact />} />
-                <Route path="projects" element={<Projects />} />
+                <Route path="projects" element={<Project />} />
                 <Route path="resume" element={<Resume />} />
               </Routes>
             </div>

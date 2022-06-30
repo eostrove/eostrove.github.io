@@ -20,8 +20,8 @@ body {
 
 
 .sidebar {
-  width: 275px;
-  height: 70vh;
+  width: 250px;
+  height: 80vh;
   min-height: 250px;
   overflow: auto;
   position: -webkit-sticky;
@@ -31,6 +31,7 @@ body {
   padding: 50px;
   margin: 15px;
   font-family: Helvetica;
+  flex-shrink: 0;
 }
 
 
@@ -40,7 +41,7 @@ body {
   background-color: $color-background;
   color: $color-dark;
   padding: 15px;
-
+  top: 5%;
 }
 
 .page-content-wrapper {
@@ -53,6 +54,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
+  padding-top: 10px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -72,6 +74,7 @@ body {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  top: 5%;
 }
 
 
@@ -79,7 +82,7 @@ body {
 
 .sidebar-nav {
   position: absolute;
-  top: 0;
+  top: 5%;
   width: 250px;
   margin: 0;
   padding: 0;
@@ -130,20 +133,16 @@ code, pre {
   font-size: 100%;
   cursor: pointer;
   text-transform: lowercase;
-  font-weight: 350;
+  font-weight: bold;
 
   /* vertical-align: middle; */
-}
-
-.navlink {
-
 }
 
 h1 {
   font-size: 1.5em;
   font-weight: 800;
   text-transform: uppercase;
-  color: #AC3B61;
+  color: #787878;
 }
 
 p {
@@ -151,9 +150,84 @@ p {
 }
 
 .uppercase-bold {
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin: 0, 0, 0.75, 0;
   text-transform: uppercase;
   font-weight: 900;
   text-align: center;
+  line-height: 4em;
+}
+
+.uppercase-bold-about {
+  font-size: 0.9em;
+  margin: 0, 0, 0.75, 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  line-height: 4em;
+}
+
+form {
+  max-width: 400px;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+		background-color: transparent;
+		border: 0;
+		box-shadow: inset 0 0 0 1px _palette(border);
+		color: _palette(fg-bold) !important;
+		cursor: pointer;
+		display: inline-block;
+		font-family: _font(family-heading);
+		font-size: 0.8em;
+		font-weight: _font(weight-heading-bold);
+		height: _size(element-height) * 1.75;
+		letter-spacing: _font(kerning-heading);
+		line-height: _size(element-height) * 1.75;
+		padding: 0 2.5em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+    border-radius: 5px;
+}
+
+button:hover {
+  box-shadow: inset 0 0 0 1px _palette(accent);
+  background-color: #787878;
+  color: white;
+}
+
+
+button:active {
+  background-color: #787878;
+  color: white;
+}
+
+.contact-icon {
+  font-size: 20px;
+  color: #49bf9d;
+}
+
+.project-image {
+  width:420px;
+  height: auto;
+}
+
+.published {
+  display: block;
+  font-family: _font(family-heading);
+  font-size: 0.8em;
+  font-weight: _font(weight-heading);
+  letter-spacing: _font(kerning-heading);
+  margin: -0.625em 0 (_size(element-margin) * 0.85) 0;
+  text-transform: uppercase;
+}
+
+.degree {
+  font-size: 15px;
 }
