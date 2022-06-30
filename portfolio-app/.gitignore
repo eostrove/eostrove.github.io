@@ -12,7 +12,7 @@ src/contact/keys.py
 /coverage
 
 # production, we can't ignore this
-#/build
+/build
 
 # misc
 .DS_Store
