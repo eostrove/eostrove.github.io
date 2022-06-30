@@ -9,16 +9,16 @@ function Nav() {
                 <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
             </div>
             <div className="navbar_item">
-                <NavLink className="nav-link" aria-current="page" to="about">About</NavLink>
-            </div>
-            <div className="navbar_item">
-                <NavLink className="nav-link" aria-current="page" to="contact">Contact</NavLink>
+                <NavLink className="nav-link" aria-current="page" to="resume">Resume</NavLink>
             </div>
             <div className="navbar_item">
                 <NavLink className="nav-link" aria-current="page" to="projects">Projects</NavLink>
             </div>
             <div className="navbar_item">
-                <NavLink className="nav-link" aria-current="page" to="resume">Resume</NavLink>
+                <NavLink className="nav-link" aria-current="page" to="about">About</NavLink>
+            </div>
+            <div className="navbar_item">
+                <NavLink className="nav-link" aria-current="page" to="contact">Contact</NavLink>
             </div>
     </header>
   )

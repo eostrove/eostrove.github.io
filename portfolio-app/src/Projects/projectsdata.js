@@ -1,10 +1,11 @@
 import playlist from '../css/images/playlist_creator.png';
+import carcar from '../css/images/carcar.png';
 
 const data = [
     {
         title: 'Car Sales and Shop Repair',
         link: '',
-        image: '',
+        image: carcar,
         date: '2022-06-24',
         bullet1: 'A React app connecting 3 microservices (Inventory, Sales, Services) for car salesmen and car mechanics to record and manage their respective car sales and repairs.',
         bullet2: 'Merges car salesmen and car mechanic data in one database, enabling a holistic view of car sales and repair history.',

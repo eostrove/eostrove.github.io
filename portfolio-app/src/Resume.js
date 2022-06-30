@@ -37,7 +37,12 @@ const Resume = () => (
                 <Languages data={languages} />
                 {/* <Courses data={courses} />
                 <References /> */}
-        
+                <div className="uppercase-bold">
+                    Download
+                </div>
+                <div>
+                    there will be a link to download my resume here once it's ready 
+                </div>
             </article>
         </div>
     </div>

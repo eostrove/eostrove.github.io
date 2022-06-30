@@ -10,7 +10,6 @@ function Sidebar() {
             <section className="intro">
                 <img className="headshot center" src={emily2} alt="" />
                 <h1>Emily Ostrove</h1>
-                <h2>testing</h2>
             </section>
             <section className="blurb">
                 <div className="blurb-h2">
@@ -25,13 +24,16 @@ function Sidebar() {
                 <thead>
                     <tr>
                         <th className="contact-icon">
-                            <a href="https://gitlab.com/emily.ostrove"><i className="fa-brands fa-github"></i></a>  
+                          <a href="mailto:emily.ostrove@gmail.com"><i className="fa-solid fa-envelope"></i></a>
                         </th>
                         <th className="contact-icon">
-                            <a href="mailto:emily.ostrove@gmail.com"><i className="fa-solid fa-envelope"></i></a>
+                          <a href="https://www.linkedin.com/in/emily-ostrove/"><i className="fa-brands fa-linkedin-in"></i></a>
                         </th>
                         <th className="contact-icon">
-                            <a href="https://www.linkedin.com/in/emily-ostrove/"><i className="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://gitlab.com/emily.ostrove"><i className="fa-brands fa-gitlab"></i></a>  
+                        </th>
+                        <th className="contact-icon">
+                            <a href="https://github.com/eostrove"><i className="fa-brands fa-github"></i></a>
                         </th>
                     </tr>
                 </thead>

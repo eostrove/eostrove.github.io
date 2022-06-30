@@ -63,13 +63,16 @@ function Contact () {
                 <thead>
                     <tr>
                         <th className="contact-icon">
-                          <a href="https://gitlab.com/emily.ostrove"><i className="fa-brands fa-github fa-lg"></i></a>  
-                        </th>
-                        <th className="contact-icon">
                           <a href="mailto:emily.ostrove@gmail.com"><i className="fa-solid fa-envelope"></i></a>
                         </th>
                         <th className="contact-icon">
                           <a href="https://www.linkedin.com/in/emily-ostrove/"><i className="fa-brands fa-linkedin-in"></i></a>
+                        </th>
+                        <th className="contact-icon">
+                            <a href="https://gitlab.com/emily.ostrove"><i className="fa-brands fa-gitlab"></i></a>  
+                        </th>
+                        <th className="contact-icon">
+                            <a href="https://github.com/eostrove"><i className="fa-brands fa-github"></i></a>
                         </th>
                         <th className="contact-icon">
                           <i className="fa-solid fa-phone"></i> 206.227.9313

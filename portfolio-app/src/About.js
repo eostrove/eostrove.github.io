@@ -1,5 +1,6 @@
 import React from "react";
 import './css/about.css';
+import stormking from './css/images/stormking.jpeg';
 
 function About() {
     return (
@@ -22,19 +23,21 @@ function About() {
                 <ul className="about-content">
                     <li>trying out new recipes</li>
                     <li>learning new languages (currently Spanish)</li>
-                    <li>swimming in alpine lakes</li>
+                    <li>exploring the Pacific Nothwest</li>
                     <li>latin dance, specifically salsa and bachata</li>
-                    <li>the smell right after it stops raining</li>
+                    <li>podcasts and audiobooks</li>
                     <li>tea & cookies</li>
                     <li>cat memes</li>
+                    <li>swimming in alpine lakes</li>
+                    <li>the smell right after it stops raining</li>
                     <li>SciFi series (Battlestar Galactica and StarTrek are my favorites)</li>
-                    <li>hiking and exploring the Pacific Nothwest</li>
                     <li>travel</li>
                 </ul>
-                <div className="uppercase-bold">
-                    some favorite photos of the past year
-                </div>
+                {/* <div className="uppercase-bold">
+                    proof that I enjoy at least one of these things
+                </div> */}
                 <div>
+                    <img className="about-image center" src={stormking}></img>
                 </div>
             </div>
         </div>
