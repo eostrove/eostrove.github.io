@@ -10,6 +10,7 @@ function Sidebar() {
             <section className="intro">
                 <img className="headshot center" src={emily2} alt="" />
                 <h1>Emily Ostrove</h1>
+                <h2>testing</h2>
             </section>
             <section className="blurb">
                 <div className="blurb-h2">
