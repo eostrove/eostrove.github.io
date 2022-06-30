@@ -3,16 +3,18 @@ import PropTypes from 'prop-types';
 import Language from "./Language";
 
 const Languages = ({ data }) => (
-    <div>
+    <div className="skills">
         <div className='uppercase-bold'>
             Languages
         </div>
-        {data.map((language) => (
-            <Language
-                data={language}
-                key={language.proficiency}
-            />
-        ))}
+        <div>
+            {data.map((language) => (
+                <Language
+                    data={language}
+                    key={language.proficiency}
+                />
+            ))}
+        </div>
     </div>
 );
 
