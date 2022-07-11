@@ -16,7 +16,10 @@ function Sidebar() {
                     About
                 </div>
                 <div className="intro-details">
-                    Hi, I'm Emily. I am a software developer and a passionate learner. I like building things. Inversely, I also like and breaking things down into tiny pieces to understand exactly how they work.
+                    Hi, I'm Emily. I am a software developer and a 
+                    passionate learner. I like building things. 
+                    Inversely, I also like reverse engineering 
+                   things to understand exactly how they work.
                 </div>
             </section>
             <br></br>
