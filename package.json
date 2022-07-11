@@ -1,7 +1,8 @@
 {
-  "name": "portfolio-app",
+  "name": "githubio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://eostrove.github.io",
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@testing-library/jest-dom": "^5.16.4",
