@@ -5,7 +5,7 @@ const languages = [
     },
     {
         language: 'German',
-        proficiency: 'Bilingual',
+        proficiency: 'Fluent',
     },
     {
         language: 'Spanish',

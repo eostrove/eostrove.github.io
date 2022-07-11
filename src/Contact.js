@@ -74,9 +74,6 @@ function Contact () {
                         <th className="contact-icon">
                             <a href="https://github.com/eostrove"><i className="fa-brands fa-github"></i></a>
                         </th>
-                        <th className="contact-icon">
-                          <i className="fa-solid fa-phone"></i> 206.227.9313
-                        </th>
                     </tr>
                 </thead>
             </table>
