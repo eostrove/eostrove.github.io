@@ -37,9 +37,9 @@ body {
 
 .main,
 .sidebar {
-  border: 5px solid $color-dark;
+  /* border: 5px solid $color-dark;
   background-color: $color-background;
-  color: $color-dark;
+  color: $color-dark; */
   padding: 15px;
   top: 5%;
 }
