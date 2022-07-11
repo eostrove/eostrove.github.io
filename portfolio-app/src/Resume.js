@@ -1,15 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './css/skills.css';
 import './css/education.css';
 
 import Skills from './Resume/Skills/Skills.js';
 import Education from './Resume/Education/Education.js';
 import Languages from './Resume/Language/Languages.js';
+import Career from './Resume/Professional/Career';
 
 import { skills, categories } from './Resume/Skills/skillsdata.js';
 import degrees from './Resume/Education/educationdata.js';
 import languages from './Resume/Language/languagedata';
+import roles from './Resume/Professional/professionaldata';
 
 const Resume = () => (
     // <Main
@@ -34,15 +35,16 @@ const Resume = () => (
                 <Education data={degrees} />
                 {/* <Experience data={positions} /> */}
                 <Skills skills={skills} categories={categories} />
+                <Career data={roles} />
                 <Languages data={languages} />
                 {/* <Courses data={courses} />
                 <References /> */}
-                <div className="uppercase-bold">
+                {/* <div className="uppercase-bold">
                     Download
                 </div>
-                <div>
+                <div className='language-points'>
                     there will be a link to download my resume here once it's ready 
-                </div>
+                </div> */}
             </article>
         </div>
     </div>

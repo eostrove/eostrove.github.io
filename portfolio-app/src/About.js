@@ -12,10 +12,9 @@ function About() {
                 <div className="about-content">
                     I am a software developer with a passion for learning. 
                     I spent the past 5 years at Amazon working in e-commerce, 
-                    where I was surround by tech, but not literate in the technology. 
+                    where I was surround by tech, but not literate in the technology. I was curious to learn more.
                     I finally decided to take the plunge and learn how to code and 
-                    haven't looked back since. I'm beyond excited to take the next step
-                    in my tech career as a Software Developer.
+                    haven't looked back since. I'm beyond excited to take my tech career to the next level as a Software Developer.
                 </div>
                 <div className="uppercase-bold">
                     things I enjoy
@@ -27,10 +26,11 @@ function About() {
                     <li>latin dance, specifically salsa and bachata</li>
                     <li>podcasts and audiobooks</li>
                     <li>tea & cookies</li>
+                    <li>when CSS works as you intended</li>
                     <li>cat memes</li>
                     <li>swimming in alpine lakes</li>
                     <li>the smell right after it stops raining</li>
-                    <li>SciFi series (Battlestar Galactica and StarTrek are my favorites)</li>
+                    <li>SciFi tv series </li>
                     <li>travel</li>
                 </ul>
                 {/* <div className="uppercase-bold">

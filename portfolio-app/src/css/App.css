@@ -156,15 +156,17 @@ p {
   font-weight: 900;
   text-align: center;
   line-height: 4em;
+  letter-spacing: .3em;
 }
 
 .uppercase-bold-about {
-  font-size: 0.9em;
-  margin: 0, 0, 0.75, 0;
+  font-size: 110%;
+  /* margin: 0, 0, 0.75, 0; */
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 100;
   text-align: center;
-  line-height: 4em;
+  line-height: 3em;
+  font-family: Helvetica;
 }
 
 form {
@@ -241,4 +243,51 @@ button:active {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+
+  
+.job-title {
+  font-size: 150%;
+  color: black;
+  margin-bottom: .3em;
+  text-transform: none;
+  letter-spacing: 0.01em;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.job-time {
+  color: #787878;
+  font-size: .95em;
+  line-height: 0em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: .2em;
+  padding-bottom: .4em;
+  padding-top: 0em;
+}
+
+.job {
+  margin: 1em;
+}
+
+.points {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-bottom: 2em;
+}
+
+.job-bullets {
+  margin-left: 2em;
+}
+
+.language-points {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.5em;
 }

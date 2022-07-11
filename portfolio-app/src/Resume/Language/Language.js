@@ -3,10 +3,8 @@ import PropTypes from 'prop-types';
 
 
 const Language = ({ data }) => (
-    <article className="degree-container">
-      <header>
-        <div>{data.language}: {data.proficiency}</div>
-      </header>
+    <article className="">
+        <li className="language-points">{data.language}: {data.proficiency}</li>
     </article>
   );
   

@@ -75,15 +75,15 @@ class Skills extends Component {
         <div className='uppercase-bold'>
           Skills
         </div>
-        <div>
-          Note: As I am early on in my development career, I assume my skills are at best 3/5. I saw this feature
-          on another website, thought it was cool, and had to implement it here for fun.
-        </div>
         <div className="skill-button-container">
           {this.getButtons()}
         </div>
         <div className="skill-row-container">
           {this.getRows()}
+        </div>
+        <div className='edu_details'>
+          Note: As I am early on in my development career, I assume my skills are at best 3/5. I saw this feature
+          on another website, thought it was cool, and had to implement it here for fun.
         </div>
       </div>
     );
