@@ -12,7 +12,7 @@ function About() {
                 <div className="about-content">
                     I am a software developer with a passion for learning. 
                     I spent the past 5 years at Amazon working in e-commerce, 
-                    where I was surround by tech, but not literate in the technology. I was curious to learn more.
+                    where I was surrounded by tech, but not literate in the technology. I was curious to learn more.
                     I finally decided to take the plunge and learn how to code and 
                     haven't looked back since. I'm beyond excited to take my tech career to the next level as a Software Developer.
                 </div>
@@ -23,7 +23,7 @@ function About() {
                     <li>trying out new recipes</li>
                     <li>learning new languages (currently Spanish)</li>
                     <li>exploring the Pacific Nothwest</li>
-                    <li>latin dance, specifically salsa and bachata</li>
+                    <li>latin dance, specifically Salsa and Bachata</li>
                     <li>podcasts and audiobooks</li>
                     <li>tea & cookies</li>
                     <li>when CSS works as you intended</li>

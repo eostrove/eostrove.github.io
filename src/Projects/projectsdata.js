@@ -5,7 +5,7 @@ import conference from '../css/images/conference.png';
 const data = [
     {
         title: 'Car Sales and Shop Repair',
-        link: '',
+        link: 'https://gitlab.com/emily.ostrove/project-beta',
         image: carcar,
         date: '2022-06-24',
         bullet1: 'A React app connecting 3 microservices (Inventory, Sales, Services) via polling to enable car salesmen and car mechanics to record and manage their respective car sales and repairs.',
@@ -14,11 +14,11 @@ const data = [
     },
     {
         title: 'ConferenceGO!',
-        link: '',
+        link: 'https://gitlab.com/emily.ostrove/conference-go',
         image: conference,
         date: '2022-06-05',
-        bullet1: 'A Django/React app built with  that enables signed on users to add songs, artists, and create playlists.',
-        bullet2: 'Leverages Pexels API to fetch city images by pulling city name from conference instance.',
+        bullet1: 'Leverages Pexels API to fetch city images by pulling city name from conference instance.',
+        bullet2: 'Utilizes Open Weather API to pull real time weather data for conference locations.',
         bullet3: 'Refactored app from Monolith to microservice architecture using pub/sub and RabbitMQ.',
     },
     {
@@ -27,8 +27,8 @@ const data = [
         image: playlist,
         date: '2022-05-16',
         bullet1: 'A Django app built with Python that enables signed on users to add songs, artists, and create playlists.',
-        bullet2: 'Leverages Spotify API to get song images by pulling album art from Spotify.',
-        bullet3: 'Leverages Spotify API to enable Spotify web player in song details pages.',
+        bullet2: 'Enabled dynamic Spotify web player in song detail page through Spotify API integration.',
+        bullet3: 'Leverages Spotify API to fetch song images by pulling album art from Spotify library.',
     }
 ]
 
