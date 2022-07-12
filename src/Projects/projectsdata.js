@@ -5,7 +5,7 @@ import conference from '../css/images/conference.png';
 const data = [
     {
         title: 'Car Sales and Shop Repair',
-        link: 'https://gitlab.com/emily.ostrove/project-beta',
+        link: 'https://gitlab.com/emily.ostrove/car-sales-and-services',
         image: carcar,
         date: '2022-06-24',
         bullet1: 'A React app connecting 3 microservices (Inventory, Sales, Services) via polling to enable car salesmen and car mechanics to record and manage their respective car sales and repairs.',
