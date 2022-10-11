@@ -124,6 +124,15 @@ input, select, textarea {
 			text-decoration: none;
 	}
 
+	a.disabled {
+		pointer-events: none;
+		cursor: default;
+	}
+
+	.disabledCursor { 
+		cursor: default;
+	  }
+
 	strong, b {
 		color: #787878;
 		font-weight: 400;
